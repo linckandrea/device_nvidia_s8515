@@ -19,7 +19,7 @@ $(call inherit-product, device/nvidia/s8515/s8515.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := s8515
-PRODUCT_NAME := cm_s8515
+PRODUCT_NAME := lineage_s8515
 PRODUCT_BRAND := nvidia
 PRODUCT_MODEL := WAX CM11
 PRODUCT_MANUFACTURER := NVIDIA
