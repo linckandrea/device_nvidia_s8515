@@ -437,16 +437,16 @@
         <ctl name="Call Mode Switch" val="0"/>
       </path>
 
-      <at node="/dev/ttySHM2" type="VOLUME" cmd="at+clvl="/>
-      <at node="/dev/ttySHM2" type="IN_CALL" cmd="at%iapvc="/>
+      <at node="/dev/ttyTHS2" type="VOLUME" cmd="at+clvl="/>
+      <at node="/dev/ttyTHS2" type="IN_CALL" cmd="at%iapvc="/>
 
       <device name="bt-sco">
-        <at  node="/dev/ttySHM2" type="PROFILE" cmd="at%iaudcnf=4\r\n"/>
+        <at  node="/dev/ttyTHS2" type="PROFILE" cmd="at%iaudcnf=4\r\n"/>
       </device>
    </call>
     <call>
-      <at node="/dev/ttySHM2" type="MUTE" cmd="at+cmut="/>
-      <at node="/dev/ttySHM2" type="CALL_RECORD" cmd="at%ia2prt="/>
+      <at node="/dev/ttyTHS2" type="MUTE" cmd="at+cmut="/>
+      <at node="/dev/ttyTHS2" type="CALL_RECORD" cmd="at%ia2prt="/>
       <device name="bt-sco-mic"/>
     </call>
   </alsa_device>
@@ -851,16 +851,16 @@
         <ctl name="Call Mode Switch" val="0"/>
       </path>
 
-      <at node="/dev/ttySHM2" type="VOLUME" cmd="at+clvl="/>
-      <at node="/dev/ttySHM2" type="IN_CALL" cmd="at%iapvc="/>
+      <at node="/dev/ttyTHS2" type="VOLUME" cmd="at+clvl="/>
+      <at node="/dev/ttyTHS2" type="IN_CALL" cmd="at%iapvc="/>
 
       <device name="bt-sco">
-        <at  node="/dev/ttySHM2" type="PROFILE" cmd="at%iaudcnf=4\r\n"/>
+        <at  node="/dev/ttyTHS2" type="PROFILE" cmd="at%iaudcnf=4\r\n"/>
       </device>
     </call>
     <call>
-      <at node="/dev/ttySHM2" type="MUTE" cmd="at+cmut="/>
-      <at node="/dev/ttySHM2" type="CALL_RECORD" cmd="at%ia2prt="/>
+      <at node="/dev/ttyTHS2" type="MUTE" cmd="at+cmut="/>
+      <at node="/dev/ttyTHS2" type="CALL_RECORD" cmd="at%ia2prt="/>
       <device name="bt-sco-mic"/>
     </call>
   </alsa_device>
