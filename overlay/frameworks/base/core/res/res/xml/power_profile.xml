@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+    <item name="screen.on">191.899</item>
+    <item name="screen.full">239.274</item>
+    <item name="bluetooth.active">9.375</item>
+    <item name="bluetooth.on">1.784</item>
+    <item name="wifi.on">42.834</item>
+    <item name="wifi.active">159.733</item>
+    <item name="wifi.scan">70.943</item>
+    <item name="dsp.audio">22.780</item>
+    <item name="dsp.video">66.032</item>
+    <item name="radio.active">153.190</item>
+    <item name="radio.scanning">115.406</item>
+    <item name="gps.on">47.0</item>
+    <array name="radio.on">
+        <value>0.911</value>
+    </array>
+    <array name="cpu.speeds">
+        <value> 51000 </value>
+        <value> 102000 </value>
+        <value> 204000 </value>
+        <value> 307200 </value>
+        <value> 393600 </value>
+        <value> 408000 </value>
+        <value> 489600 </value>
+        <value> 556800 </value>
+        <value> 652800 </value>
+        <value> 729600 </value>
+        <value> 768000 </value>
+        <value> 816000 </value>
+        <value> 918000 </value>
+        <value> 1020000 </value>
+        <value> 1122000 </value>
+        <value> 1224000 </value>
+        <value> 1326000 </value>
+        <value> 1428000 </value>
+        <value> 1530000 </value>
+        <value> 1632000 </value>
+        <value> 1734000 </value>
+    </array>
+    <item name="cpu.idle"> 0.0612 </item>
+    <array name="cpu.active">
+        <value> 6.764 </value>
+        <value> 14.965 </value>
+        <value> 14.084 </value>
+        <value> 11.1576 </value>
+        <value> 13.945 </value>
+        <value> 7.508 </value>
+        <value> 8.924 </value>
+        <value> 9.994 </value>
+        <value> 11.394 </value>
+        <value> 12.686 </value>
+        <value> 13.213 </value>
+        <value> 14.108 </value>
+        <value> 16.451 </value>
+        <value> 18.930 </value>
+        <value> 21.416 </value>
+        <value> 23.774 </value>
+        <value> 25.782 </value>
+        <value> 26.754 </value>
+        <value> 29.457 </value>
+        <value> 32.443 </value>
+        <value> 35.837 </value>
+    </array>
+    <item name="battery.capacity">1000</item>
+</device>
